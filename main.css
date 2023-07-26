@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0d1117;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #11151b;
+    border-bottom: 1px solid #1c222c;
+}
+
+.header h2{
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.loading .red{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.loading a{
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+    border: 0;
+    line-height: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
